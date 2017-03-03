@@ -23,7 +23,6 @@ module CiIonicBuilder
     run_command("yarn run build")
     if !!ENV['CIRCLE_TAG']
       build_production "android"
-      build_production "ios"
     end
   end
 
