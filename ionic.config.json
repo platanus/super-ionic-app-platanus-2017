@@ -1,0 +1,12 @@
+{
+  "name": "super-ionic-app-platanus-2017",
+  "app_id": "",
+  "v2": true,
+  "typescript": true,
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://pl-super-ionic-app-platanus-2017-staging.herokuapp.com/api/v1"
+    }
+  ]
+}
